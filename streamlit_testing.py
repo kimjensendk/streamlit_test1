@@ -14,3 +14,5 @@ st.header('header')
 st.text('txt')
 
 st.dataframe(df2)
+
+st.dataframe(df2.plot())
