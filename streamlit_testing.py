@@ -15,10 +15,7 @@ st.text('txt')
 
 st.dataframe(df2)
 
-speed = [0.1, 17.5, 40, 48, 52, 69, 88]
-lifespan = [2, 8, 70, 1.5, 25, 12, 28]
-index = ["snail", "pig", "elephant", "rabbit", "giraffe", "coyote", "horse"]
-df = pd.DataFrame({"speed": speed, "lifespan": lifespan}, index=index)
+df = pd.DataFrame(np.random.randn(10, 20), columns=("col %d" % i for i in range(20)))
 
-st.pyplot(df.plot.barh(stacked=True).figure)
+st.dataframe(df.style.highlight_max(axis=0))
 
