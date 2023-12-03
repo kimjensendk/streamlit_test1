@@ -11,7 +11,7 @@ st.title('Hello wor ld dette er headeren på denn streamlit app')
 
 st.header('Nu skal der stå noget ordenfdghfhtligt')
 
-st.text('txt')
+st.text('Her står der noget standard tekst alm størrelse')
 
 df = pd.DataFrame(np.random.randn(10, 20), columns=("col %d" % i for i in range(20)))
 
