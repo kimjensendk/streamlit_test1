@@ -9,7 +9,7 @@ st.write("""
 Shown are stock closing price and volume of google
 """)
 
-tickerSymbol = 'GOOGL'
+tickerSymbol = 'AAPL'
 
 tickerData = yf.Ticker(tickerSymbol)
 
