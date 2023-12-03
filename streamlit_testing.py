@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+
 df2 = pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]),
                    columns=['a', 'b', 'c'])
 
@@ -9,7 +10,7 @@ df2 = pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]),
 
 st.title('Hello wor ld dette er headeren på denn streamlit app')
 
-st.header('Nu skal der stå noget ordenfdghfhtligt')
+st.header('Nu skal der ')
 
 st.text('Her står der noget standard tekst alm størrelse')
 
