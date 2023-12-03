@@ -9,7 +9,7 @@ df2 = pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]),
 
 st.title('Hello wor ld dette er headeren på denn streamlit app')
 
-st.header('headddder')
+st.header('Nu skal der stå noget ordentligt')
 
 st.text('txt')
 
