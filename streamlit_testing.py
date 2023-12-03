@@ -1,7 +1,7 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import yfinance as yf
+# import pandas as pd
+# import numpy as np
+# import yfinance as yf
 
 
 st.write("""
@@ -9,13 +9,13 @@ st.write("""
 Shown are stock closing price and volume of google
 """)
 
-tickerSymbol = 'GOOGL'
-
-tickerData = yf.Ticker(tickerSymbol)
-
-
-tickerDf = tickerData.history(period='1d', start = '2010-5-31', end='2023-1-31')
-
-
-st.line_chart(tickerDf.Close)
-st.line_chart(tickerDf.Volume)
+# tickerSymbol = 'GOOGL'
+#
+# tickerData = yf.Ticker(tickerSymbol)
+#
+#
+# tickerDf = tickerData.history(period='1d', start = '2010-5-31', end='2023-1-31')
+#
+#
+# st.line_chart(tickerDf.Close)
+# st.line_chart(tickerDf.Volume)
